@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 
-// Relative base so the built asset URLs resolve under the GitHub Pages project
-// subpath (https://raemr.github.io/raems-world/) without hardcoding the repo name.
+// Relative base so built asset URLs resolve wherever the site is served
+// (https://raemr.github.io/) without hardcoding a path.
 export default defineConfig({
   base: "./",
 });
